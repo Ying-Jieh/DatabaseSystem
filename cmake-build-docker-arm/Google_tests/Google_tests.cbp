@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Google_tests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Google_tests\;CMake Files\Google_tests\lib\;CMake Files\Google_tests\lib\googlemock\;CMake Files\Google_tests\lib\googlemock\cmake\;CMake Files\Google_tests\lib\googletest\;CMake Files\Google_tests\lib\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Google_Tests_run">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 Google_Tests_run"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Google_Tests_run/fast">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 Google_Tests_run/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/include"/>
+					<Add directory="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/SP24-ECE141B-Database-Team12/cmake-build-docker-arm/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/BlockTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/CacheTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/FiltersTest.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/FolderReaderTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/HelperTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/IndexTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/IntegrationTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/JoinTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/ParsingTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/SchemaTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/SelectTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/TableTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/TestHelpers.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/TestHelpers.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/dbTests/ViewTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/commandHandler/BasicHandler.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/commandHandler/CommandHandler.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/commandHandler/DatabaseHandler.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/commandHandler/SQLProcessor.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/controller/AppController.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/database/Database.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/database/Index.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/database/RowCache.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/database/RowProvider.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/database/RowSelection.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/database/Schema.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/database/Table.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/database/TableRow.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/BasicTypes.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/Compare.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/Config.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/DBQuery.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/Errors.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/Faked.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/Filters.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/FolderReader.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/Helpers.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/LRUCache.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/Logger.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/OrderedMap.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/ParseHelper.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/Remoting.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/Timer.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/joins/Join.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/misc/joins/JoinedRow.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/AttributeParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/ClauseParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/CreateTableParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/DeleteParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/ExpressionParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/InsertParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/JoinParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/MultiParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/OperandParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/OperatorParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/Parser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/SelectParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/TokenParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/UpdateParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/parsing/ValueParser.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/statement/DeleteStatement.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/statement/ExecutionContext.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/statement/InsertStatement.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/statement/SelectStatement.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/statement/Statement.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/statement/UpdateStatement.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/storage/BlockIO.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/storage/DatabaseStorageEngine.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/storage/Storage.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/testing/OutputValidator.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/testing/ScriptMaker.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/testing/ScriptRunner.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/testing/TestAutomatic.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/testing/TestManually.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/testing/TestSequencer.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/testing/TestUtilities.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/tokenizer/Scanner.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/tokenizer/Tokenizer.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/tokenizer/keywords.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/view/QueryView.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/view/TabularView.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/include/view/View.hpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/controller/AppController.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/database/Database.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/database/RowCache.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/database/Schema.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/database/Table.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/database/TableRow.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/misc/Faked.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/misc/Filters.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/misc/Join.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/misc/Logger.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/misc/ParseHelper.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/parsing/TokenParser.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/storage/BlockIO.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/storage/Storage.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/src/tokenizer/Tokenizer.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\lib\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/SP24-ECE141B-Database-Team12/Google_tests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

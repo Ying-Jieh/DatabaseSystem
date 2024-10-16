@@ -1,0 +1,20 @@
+Available commands:
+    about: show members
+    version: show app version
+    quit: stop app
+    help: show list of commands
+    create database {name}: make a new database in storage folder
+    show databases: list databases in storage folder
+    drop database {name}: delete a known database from storage folder
+    use {name}: load a known database for use
+    dump database {name}: show the information of the database
+    create table {tableName}: create a new table in the database in use
+    drop table {tableName}: delete the table in the database in use
+    describe table {tableName}: list the schema of the table
+    select {attributes} from {tableName}: retrieve rows selected from one or more tables
+    insert into {tableName} {attributes} values {values} : inserts new rows into an existing table
+    update {tableName} set {condition}: updates columns of existing rows in the named table with new values
+    delete from {tableName} where {condition}: deletes rows from an existing table and returns the number of deleted rows
+    show tables: list all the tables in the database in use
+
+

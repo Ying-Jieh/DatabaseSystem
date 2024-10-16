@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/chris/Desktop/UCSD_class/24Spring/ECE141B/SP24-ECE141B-Database-Team12 -B /Users/chris/Desktop/UCSD_class/24Spring/ECE141B/SP24-ECE141B-Database-Team12/cmake-build-debug
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/chris/Desktop/UCSD_class/24Spring/ECE141B/SP24-ECE141B-Database-Team12/cmake-build-debug

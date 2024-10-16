@@ -1,0 +1,23 @@
+{
+  "team": {
+    "name": "Daniel Z / Chris X",
+    "members": [
+      {
+        "name": "Ying-Jieh, Xia",
+        "email": "yix050@ucsd.edu",
+        "pid": "A59026632",
+        "os": "mac"
+      },
+      {
+        "name": "Daniel Ziper",
+        "email": "dziper@ucsd.edu",
+        "pid": "A16217790",
+        "os": "mac"
+      }
+
+    ]
+  },
+  "project": {
+    "github_project_url": "https://github.com/orgs/UCSD-ECE141/projects/46"
+  }
+}
